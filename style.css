@@ -1,0 +1,79 @@
+body {
+  background-position: center;
+	width: 100%;
+  background-color: #696969;
+}
+
+h1 {
+  letter-spacing: 2px;
+  color: #1E90FF;
+  text-align: center;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#mercury {
+  display: block;
+  padding: 100px 250px;
+  position: absolute;
+  float: left;
+  width: 20%;
+	
+}
+
+#venus {
+  display: block;
+  padding: 100px 700px;
+  position: absolute;
+  float: left;
+  width: 15%;
+}
+
+#earth {
+  display: block;
+  padding: 100px 1000px;
+  position: absolute;
+  float: left;
+  width: 15%;
+}
+
+#mars {
+  display: block;
+  padding: 100px 1350px;
+  position: absolute;
+  float: left;
+  width: 15%;
+}
+
+#table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 75%;
+  height: 400px;
+  border: 2px solid #000000;
+  border-collapse: collapse;
+}
+
+#theading th {
+  padding: 1px;
+  background-color: #008B8B;
+  color: #FFD700;
+  border: 1px solid #000000;	
+  font-family: 'Roboto', sans-serif;  
+}
+
+#tbody th {
+  padding: 10px;
+  background-color: #008B8B;
+  color: #FFD700;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #000000;	  
+}
+
+#tbody td {
+  padding: 10px;
+  background-color: 	#FAFAD2;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #000000;
+}
